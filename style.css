@@ -1,0 +1,242 @@
+body {
+    background-image: url(bg-image.avif);
+    background-size: cover;
+}
+
+.container {
+    width: 1650px;
+    height: 850px;
+    border: 5px solid white;
+    border-radius: 50px;
+    display: flex;
+    margin: 250px auto;
+    padding: 35px 20px;
+    justify-content: space-evenly;
+    animation-name: container;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes container {
+    from {
+        width: 1650px;
+        height: 850px;
+        border: 5px solid white;
+        border-radius: 50px;
+        display: flex;
+        margin: 250px auto;
+        padding: 35px 20px;
+        justify-content: space-evenly;
+    }
+
+    to {
+        width: 1650px;
+        height: 850px;
+        border: 25px solid darkgoldenrod;
+        border-radius: 50px;
+        display: flex;
+        margin: 250px auto;
+        padding: 35px 20px;
+        justify-content: space-evenly;
+    }
+}
+
+.box1 {
+    height: 250px;
+    width: 250px;
+    border: 10px solid white;
+    background-image: url(Galaxy.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 0;
+    animation-name: galaxy1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes galaxy1 {
+    from {
+        height: 250px;
+        width: 250px;
+        border: 10px solid white;
+        background-image: url(Galaxy.jpg);
+        background-size: cover;
+        border-radius: 50%;
+        margin: 0 0;
+    }
+
+    to {
+        height: 250px;
+        width: 250px;
+        border: 15px solid darkblue;
+        background-image: url(Galaxy.jpg);
+        background-size: cover;
+        border-radius: 50%;
+        margin: 600px 0;
+
+    }
+}
+
+.box2 {
+    height: 250px;
+    width: 250px;
+    border: 10px solid white;
+    background-image: url(Galaxy\ 2.jpg);
+    background-size: cover;
+    background-color: darkblue;
+    border-radius: 50%;
+    animation-name: galaxy2;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes galaxy2 {
+    from {
+        height: 250px;
+        width: 250px;
+        border: 10px solid white;
+        background-image: url(Galaxy\ 2.jpg);
+        background-size: cover;
+        border-radius: 50%;
+        margin: 0 0;
+    }
+
+    to {
+        height: 250px;
+        width: 250px;
+        border: 15px solid crimson;
+        background-image: url(Galaxy\ 2.jpg);
+        background-size: cover;
+        border-radius: 50%;
+        margin: 600px 0;
+
+    }
+}
+
+
+.box3 {
+    height: 250px;
+    width: 250px;
+    border: 10px solid white;
+    background-image: url(Galaxy\ 3.jpg);
+    background-size: cover;
+    background-color: darkgreen;
+    border-radius: 50%;
+    animation-name: galaxy3;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes galaxy3 {
+    from {
+        height: 250px;
+        width: 250px;
+        border: 10px solid white;
+        background-image: url(Galaxy\ 3.jpg);
+        background-size: cover;
+        border-radius: 50%;
+        margin: 0 0;
+    }
+
+    to {
+        height: 250px;
+        width: 250px;
+        border: 15px solid darkgoldenrod;
+        background-image: url(Galaxy\ 3.jpg);
+        background-size: cover;
+        border-radius: 50%;
+        margin: 600px 0;
+
+    }
+}
+
+
+.box4 {
+    height: 250px;
+    width: 250px;
+    border: 10px solid white;
+    background-image: url(Galaxy\ 4.jpg);
+    background-size: cover;
+    background-color: darkorange;
+    border-radius: 50%;
+    animation-name: galaxy4;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2.8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes galaxy4 {
+    from {
+        height: 250px;
+        width: 250px;
+        border: 10px solid white;
+        background-image: url(Galaxy\ 4.jpg);
+        background-size: cover;
+        border-radius: 50%;
+        margin: 0 0;
+    }
+
+    to {
+        height: 250px;
+        width: 250px;
+        border: 15px solid darkred;
+        background-image: url(Galaxy\ 4.jpg);
+        background-size: cover;
+        border-radius: 50%;
+        margin: 600px 0;
+
+    }
+}
+
+
+.box5 {
+    height: 250px;
+    width: 250px;
+    border: 10px solid white;
+    background-image: url(Galaxy\ 5.jpg);
+    background-size: cover;
+    background-color: crimson;
+    border-radius: 50%;
+    animation-name: galaxy5;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes galaxy5 {
+    from {
+        height: 250px;
+        width: 250px;
+        border: 10px solid white;
+        background-image: url(Galaxy\ 5.jpg);
+        background-size: cover;
+        border-radius: 50%;
+        margin: 0 0;
+    }
+
+    to {
+        height: 250px;
+        width: 250px;
+        border: 15px solid darkgreen;
+        background-image: url(Galaxy\ 5.jpg);
+        background-size: cover;
+        border-radius: 50%;
+        margin: 600px 0;
+
+    }
+}
